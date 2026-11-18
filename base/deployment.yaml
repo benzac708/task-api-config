@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: task-api
-          image: ghcr.io/benzac708/task-api:latest
+          image: ghcr.io/benzac708/task-api:c8d439e744d3e035cd2f593cfc71d45c23dfd1b3
           ports:
             - containerPort: 8000
           readinessProbe:
